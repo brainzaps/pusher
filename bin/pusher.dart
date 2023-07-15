@@ -11,5 +11,5 @@ Future<void> main(List<String> args) async {
     configName: configName,
   );
 
-  await Bundler.run(config: config);
+  await Bundler().run(config: config);
 }
