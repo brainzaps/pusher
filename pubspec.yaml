@@ -16,4 +16,5 @@ dev_dependencies:
   test: ^1.21.0
 
 executables:
+  distribute: bin/scripts/distribute.sh
   pusher: 
